@@ -1,0 +1,85 @@
+nav{
+    padding: 2% 5%;
+    background-color: rgb(26, 97, 251);
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+input::selection{
+    background-color: blueviolet;
+}
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+}
+.search{
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    /* border: none; */
+    border: 1px solid rgb(38, 38, 38);
+}
+.weather-items-box{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 2em;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: hide;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237);
+    padding: 20px 5%;
+    margin: 10px 3%;
+    height: fit-content;
+    width: 210px;
+    /* gap: 2em; */
+    border-radius: 20px;
+    align-items: center;
+}
+img{
+    width: 50%;
+    align-self: center;
+}
+span{
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.ic-co{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.ic-co span{
+    font-size: large;
+    font-weight: 500;
+}
+.te-fa{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.te-fa span{
+    font-weight: 500;
+}
