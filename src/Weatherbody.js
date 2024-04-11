@@ -17,7 +17,7 @@ const Weatherbody = () => {
     const fetchData = async (arrayItemLocation) => {
         try {
             // API URL for fetching weather data
-            let url = `https://api.weatherapi.com/v1/current.json?key=a38a319575ec479e8ba213640242301&q=${arrayItemLocation}&days=1`;
+            let url = `https://api.weatherapi.com/v1/current.json?key=489383cd91904f60b66183504241104 &q=${arrayItemLocation}&days=1`;
             let response = await fetch(url);
             let locationData = await response.json();
 
